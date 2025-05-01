@@ -28,10 +28,10 @@ After testing all three methods, we found that:
 
 | Notebook Filename | Imbalance Method | Description |
 |-------------------|------------------|-------------|
-| `Binaryclass_Imbalanced_Plain_Bertbase.ipynb` | None (Baseline) | Standard BERT model without any imbalance handling |
-| `Binaryclass_ClassWeights_Bertbase.ipynb` | Class Weights | Adds more weight to fake reviews (minority class) during training |
-| `Binaryclass_WeightedRandomSampler_Bertbase.ipynb` | Weighted Random Sampler | Ensures each batch contains more fake reviews via weighted sampling with replacement |
-| `Binaryclass_FocalLoss_Bertbase.ipynb` | Focal Loss | Focuses learning on hard examples by down-weighting confident predictions |
+| `BinaryClassify_ImbalanceTreatment_None.ipynb` | None (Baseline) | Standard BERT model without any imbalance handling |
+| `BinaryClassify_ImbalanceTreatment_ClassWeights.ipynb` | Class Weights | Adds more weight to fake reviews (minority class) during training |
+| `BinaryClassify_ImbalanceTreatment_WeightedRandomSampler.ipynb` | Weighted Random Sampler | Ensures each batch contains more fake reviews via weighted sampling with replacement |
+| `BinaryClassify_ImbalanceTreatment_FocalLoss.ipynb` | Focal Loss | Focuses learning on hard examples by down-weighting confident predictions |
 
 ---
 
